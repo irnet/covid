@@ -1,3 +1,4 @@
+<script src= 'https://statics.teams.cdn.office.net/sdk/v1.6.0/js/MicrosoftTeams.min.js'></script>
 # COVID main static
 based on https://ourworldindata.org/
 
@@ -22,3 +23,6 @@ https://ourworldindata.org/grapher/daily-covid-deaths-per-million-7-day-average?
 ## Deaths per million including Sweden where is no quarantine
 https://ourworldindata.org/grapher/daily-covid-deaths-per-million-7-day-average?country=RUS+UKR+SWE+BLR
 <iframe src="https://ourworldindata.org/grapher/daily-covid-deaths-per-million-7-day-average?country=BLR+RUS+SWE+UKR" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+<script>
+    microsoftTeams.initialize();
+</script>
