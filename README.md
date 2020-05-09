@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+# COVID main static
+based on https://ourworldindata.org/
 
-You can use the [editor on GitHub](https://github.com/irnet/covid/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Tests. rolling 3 days avg
+Позволяет предположить, как часто мы знаем, что кто-то болел или болеет и этим вирусом.
+Больше-лучше.
+https://ourworldindata.org/grapher/daily-covid-19-tests-rolling-3-day-average?country=UKR+RUS+BLR  
+<iframe src="https://ourworldindata.org/grapher/daily-covid-19-tests-rolling-3-day-average?country=BLR+RUS+UKR" style="width: 100%; height: 600px; border: 0px none;"></iframe>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Test per 1000
+https://ourworldindata.org/grapher/total-tests-per-thousand-since-per-cap-death-threshold-incl-before-outbreak?country=BLR+RUS+UKR  
+<iframe src="https://ourworldindata.org/grapher/total-tests-per-thousand-since-per-cap-death-threshold-incl-before-outbreak?country=BLR+RUS+UKR" style="width: 100%; height: 600px; border: 0px none;"></iframe>
 
-### Markdown
+## Cases per million
+https://ourworldindata.org/grapher/daily-covid-cases-per-million-three-day-avg?tab=chart&year=2020-05-08&country=UKR+RUS+BLR  
+<iframe src="https://ourworldindata.org/grapher/daily-covid-cases-per-million-three-day-avg?tab=chart&year=2020-05-08&country=BLR+RUS+UKR" style="width: 100%; height: 600px; border: 0px none;"></iframe>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Deaths per million
+https://ourworldindata.org/grapher/daily-covid-deaths-per-million-7-day-average?country=RUS+UKR+BLR
+<iframe src="https://ourworldindata.org/grapher/daily-covid-deaths-per-million-7-day-average?country=BLR+RUS+UKR" style="width: 100%; height: 600px; border: 0px none;"></iframe>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/irnet/covid/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Deaths per million including Sweden where is no quarantine
+https://ourworldindata.org/grapher/daily-covid-deaths-per-million-7-day-average?country=RUS+UKR+SWE+BLR
+<iframe src="https://ourworldindata.org/grapher/daily-covid-deaths-per-million-7-day-average?country=BLR+RUS+SWE+UKR" style="width: 100%; height: 600px; border: 0px none;"></iframe>
